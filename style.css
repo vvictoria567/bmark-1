@@ -212,7 +212,7 @@ header .image img {
 .realty {
     position: relative;
     max-width: 1440px;
-    margin: 290px auto 171px;
+    margin: 290px auto 520px;
 }
 
 .realty h2 {
@@ -282,7 +282,7 @@ header .image img {
     margin-right: 0;
 }
 .realty .house:hover {
-    box-shadow: 2px 5px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 4px 55px rgba(0, 0, 0, 0.11);
 }
 .realty .house .image {
     border-top-left-radius: 30px;
@@ -332,4 +332,131 @@ header .image img {
     border-radius: 20px;
     padding: 26px 120px;
 }
+
+
+
+
+
+
+
+.advantages {
+    /* border: 1px solid red; */
+    position: relative;
+    margin-bottom: 142px;
+}
+.advantages .circle {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: -280px;
+    left: -4%;
+    z-index: 0;
+}
+
+.advantages .background {
+    /* border: 1px solid rgb(208, 0, 255); */
+    width: 1440px;
+    position: relative;
+}
+
+.advantages .background .building {
+    width: 680px;
+    height: 760px;
+    /* border: 1px solid red; */
+}
+.advantages .main {
+    /* border: 1px solid red; */
+    vertical-align: top;
+    margin-left: 80px;
+    display: inline-block;
+}
+.advantages .main h3 {
+    margin-bottom: 70px;
+}
+.advantages .main .box {
+    /* border: 1px solid rgb(0, 149, 255); */
+    vertical-align: middle;
+    margin-bottom: 54px;
+}
+.advantages .main .box:last-child {
+    margin-bottom: 0;
+}
+.advantages .main .box1 {
+    background-color: #FBFCED;
+    width: 100px;
+    height: 103px;
+    padding: 27px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.advantages .main .box .text {
+    /* border: 1px solid orange; */
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+
+.advantages .slider {
+    /* border: 1px solid red; */
+    width: 390px;
+    height: 190px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-top: 34px;
+    padding-left: 39px;
+    position: absolute;
+    top: 550px;
+    left: -100px;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: 2px 4px 55px rgba(0, 0, 0, 0.11);
+}
+.advantages .slider h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-bottom: 4px;
+}
+.advantages .slider span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #CCCFD0;
+}
+.advantages .slider .slides {
+    /* border: 1px solid blue; */
+    margin-top: 18px;
+}
+.advantages .slider .slides img {
+    /* border: 1px solid red; */
+    width: 58px;
+    height: 54px;
+    margin-right: 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.advantages .slider .arrow {
+    display: inline-block;
+    position: absolute;
+    top: 108px;
+    right: 60px;
+}
+.advantages .slider .arrow-right {
+    background-color: #F93633;
+    display: inline-block;
+    width: 58px;
+    height: 54px;
+    border-radius: 5px;
+    padding: 17px 23px;
+    cursor: pointer;
+    
+}
+.advantages .slider .arrow-right img {
+    width: 10px;
+    height: 19px;
+}
+
+
 
