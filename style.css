@@ -1,0 +1,211 @@
+:root {
+    --color-black: #021112;
+    --color-gray: #677071;
+    --color-lite_gray: #CCCFD0;
+    --color-white: #FFFFFF;
+    --color-blue: #13A6BA;
+
+    --font-weight_main_text: 400;
+    /* --font-weight_heading: 600; */
+}
+
+body, * {
+    font-family: "Noto Serif";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.heading {
+    font-size: 58px;
+    font-weight: 700;
+    color: var(--color-black);
+}
+.btn {
+    background-color: var(--color-blue);
+    font-weight: 600;
+    cursor: pointer;
+}
+.main_text {
+    font-size: 20px;
+    font-weight: var(--font-weight_main_text);
+    color: var(--color-gray);
+}
+.signatures {
+    font-size: 18px;
+    font-weight: var(--font-weight_main_text);
+}
+.main_heading {
+    font-size: 80px;
+    font-weight: 800;
+    color: var(--color-black);
+}
+.nav {
+    font-size: 26px;
+    font-weight: var(--font-weight_main_text);
+    color: var(--color-lite_gray);
+}
+.label {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+
+
+.container {
+    border: 1px solid blue;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FBEDDA;
+    height: 2300px;
+}
+.logo {
+    width: 131px;
+    height: 27px;
+    margin-top: 51px;
+}
+nav {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 225px;
+    margin-left: 500px;
+    margin-right: 100px;
+}
+header nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+header nav li:last-child {
+    margin-right: 0;
+}
+.signatures--black {
+    color: var(--color-black);
+}
+.btn__sign-in {
+    font-size: 20px;
+    width: 127px;
+    height: 50px;
+    border-radius: 8px;
+    color: var(--color-white);
+    padding: 10.5px 25px;
+    margin-top: 39px;
+    display: inline-block;
+}
+
+
+header .hero {
+    text-align: center;
+}
+header h1{
+    margin-bottom: 31px;
+}
+header .search {
+    max-width: 1200px;
+    margin: 132px auto 0;
+    background-color: var(--color-white);
+    display: block;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+}
+header .search .menu{
+    display: inline-block;
+    list-style: none;
+}
+header .search .menu li {
+    padding-bottom: 30px;
+    border-bottom: none;
+    position: relative;
+    transition: border-bottom 0.3s;
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 87px;
+}
+header .search .menu li:first-child {
+    margin-left: 35px;
+}
+header .search .menu li:last-child {
+    margin-right: 0;
+}
+header .search .menu .nav:hover {
+    font-weight: 600;
+    color: var(--color-black);
+}
+header .search .menu li::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: -8px;
+    width: 130%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #021112;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+header .search .menu li:hover::after {
+    opacity: 1;
+}
+header .search .main {
+    border-top: 1px solid #E0E2E3;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 6px;
+}
+header .search .info-card {
+    display: inline-block;
+    padding-top: 33px;
+    padding-bottom: 43px;
+    margin: -2px;
+}
+header .search .info-card .icon {
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+}
+.signatures--gray {
+    color: var(--color-gray);
+}
+header .search .info-card .label {
+    display: block;
+    margin-top: 6px;
+    margin-left: 22px;
+}
+.dividing_line {
+    height: 50px;
+    color: #CFCCCC;
+    margin-left: 68px;
+    margin-right: 35px;
+}
+header .search .btn__search {
+    font-size: 28px;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    border-radius: 20px;
+    margin-left: 40px;
+    padding: 27px 56px;
+}
+header .image{
+    position: absolute;
+    width: 2300px;
+    top: 850px;
+    left: 50%;
+    transform: translate(-50%);
+}
+header .image img {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+
+
+
