@@ -6,7 +6,7 @@
     --color-blue: #13A6BA;
 
     --font-weight_main_text: 400;
-    /* --font-weight_heading: 600; */
+    --font-weight_text: 600;
 }
 
 body, * {
@@ -28,7 +28,7 @@ body, * {
     color: var(--color-black);
 }
 .btn {
-    font-weight: 600;
+    font-weight: var(--font-weight_text);
     cursor: pointer;
 }
 .main_text {
@@ -52,7 +52,7 @@ body, * {
 }
 .label {
     font-size: 36px;
-    font-weight: 600;
+    font-weight: var(--font-weight_text);
     color: var(--color-black);
 }
 
@@ -137,7 +137,7 @@ header .search .menu .navig {
     font-weight: var(--font-weight_main_text);
 }
 header .search .menu .navig:hover {
-    font-weight: 600;
+    font-weight: var(--font-weight_text);
     color: var(--color-black);
 }
 header .search .menu li::after {
@@ -148,7 +148,7 @@ header .search .menu li::after {
     width: 130%;
     height: 3px;
     border-radius: 2px;
-    background-color: #021112;
+    background-color: var(--color-black);
     opacity: 0;
     transition: opacity 0.3s;
 }
@@ -207,14 +207,11 @@ header .image img {
 
 
 
-
-
 .realty {
     position: relative;
     max-width: 1440px;
     margin: 290px auto 520px;
 }
-
 .realty h2 {
     margin-bottom: 21px;
 }
@@ -228,7 +225,7 @@ header .image img {
     right: 0;
 }
 .realty .button label {
-    font-weight: 600;
+    font-weight: var(--font-weight_text);
     display: inline-block;
     position: relative;
     cursor: pointer;
@@ -335,10 +332,6 @@ header .image img {
 
 
 
-
-
-
-
 .advantages {
     position: relative;
     margin-bottom: 142px;
@@ -351,12 +344,10 @@ header .image img {
     left: -4%;
     z-index: 0;
 }
-
 .advantages .hero {
     width: 1440px;
     position: relative;
 }
-
 .advantages .hero .building {
     width: 680px;
     height: 760px;
@@ -392,7 +383,7 @@ header .image img {
 }
 
 
-.advantages .slider {
+.advantages .discover {
     width: 390px;
     height: 190px;
     background-color: #FFFFFF;
@@ -406,21 +397,21 @@ header .image img {
     z-index: 2;
     box-shadow: 2px 4px 55px rgba(0, 0, 0, 0.11);
 }
-.advantages .slider h4 {
+.advantages .discover h4 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: var(--font-weight_text);
     color: var(--color-black);
     margin-bottom: 4px;
 }
-.advantages .slider span {
+.advantages .discover span {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: var(--font-weight_text);
     color: #CCCFD0;
 }
-.advantages .slider .slides {
+.advantages .discover .image {
     margin-top: 18px;
 }
-.advantages .slider .slides img {
+.advantages .discover .image img {
     width: 58px;
     height: 54px;
     margin-right: 15px;
@@ -428,13 +419,13 @@ header .image img {
     display: inline-block;
 }
 
-.advantages .slider .arrow {
+.advantages .discover .arrow {
     display: inline-block;
     position: absolute;
-    top: 108px;
+    top: 104px;
     right: 60px;
 }
-.advantages .slider .arrow-right {
+.advantages .discover .arrow-right {
     background-color: #F93633;
     display: inline-block;
     width: 58px;
@@ -442,9 +433,8 @@ header .image img {
     border-radius: 5px;
     padding: 17px 23px;
     cursor: pointer;
-    
 }
-.advantages .slider .arrow-right img {
+.advantages .discover .arrow-right img {
     width: 10px;
     height: 19px;
 }
@@ -457,14 +447,12 @@ header .image img {
     padding-bottom: 200px;
     position: relative;
 }
-
 .information .line {
     width: 1395px;
     height: 1253px;
     position: absolute;
     top: 0;
     right: 0;
-
 }
 .information .backdrop {
     width: 1091px;
@@ -511,7 +499,6 @@ header .image img {
 .information .text ul .name {
     display: block;
 }
-
 
 .information .details {
     display: inline-block;
@@ -580,7 +567,6 @@ header .image img {
     display: inline-block;
     position: absolute;
     left: 261px;
-
 }
 .information .details .bottom-section .share-section {
     display: inline-block;
@@ -785,8 +771,6 @@ header .image img {
 
 
 
-
-
 .subscription-form {
     position: relative;
 }
@@ -829,7 +813,6 @@ header .image img {
     margin-top: 100px;
     position: relative;
     z-index: 1;
-
 }
 .subscription-form input[type="email"] {
     padding: 38px 200px 38px 45px;
